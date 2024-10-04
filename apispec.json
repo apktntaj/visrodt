@@ -1,0 +1,83 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Shipment RESTful API",
+    "description": "API spec for shipment RESTful API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000/api"
+    }
+  ],
+  "paths": {
+    "/shipments": {
+      "get": {
+        "description": "List of all shipments",
+        "responses": {
+          "200": {
+            "description": "Success get all shipments",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "number"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "number"
+                          },
+                          "job": {
+                            "type": "string"
+                          },
+                          "noBl": {
+                            "type": "string"
+                          },
+                          "shipper": {
+                            "type": "string"
+                          },
+                          "shipperAddress": {
+                            "type": "string"
+                          },
+                          "shipperCountry": {
+                            "type": "string"
+                          },
+                          "consignee": {
+                            "type": "string"
+                          },
+                          "consigneeAddress": {
+                            "type": "string"
+                          },
+                          "consigneeCountry": {
+                            "type": "string"
+                          },
+                          "createdAt": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "updatedAt": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
