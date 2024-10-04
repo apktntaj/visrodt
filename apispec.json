@@ -13,7 +13,9 @@
   "paths": {
     "/shipments": {
       "get": {
-        "description": "List of all shipments",
+        "tags": ["Shipment API"],
+        "description": "List of all shipments including exhibitions and general cargo type",
+        "summary": "All shipments",
         "responses": {
           "200": {
             "description": "Success get all shipments",
@@ -31,50 +33,119 @@
                     "data": {
                       "type": "array",
                       "items": {
-                        "type": "object",
-                        "properties": {
-                          "id": {
-                            "type": "number"
-                          },
-                          "job": {
-                            "type": "string"
-                          },
-                          "noBl": {
-                            "type": "string"
-                          },
-                          "shipper": {
-                            "type": "string"
-                          },
-                          "shipperAddress": {
-                            "type": "string"
-                          },
-                          "shipperCountry": {
-                            "type": "string"
-                          },
-                          "consignee": {
-                            "type": "string"
-                          },
-                          "consigneeAddress": {
-                            "type": "string"
-                          },
-                          "consigneeCountry": {
-                            "type": "string"
-                          },
-                          "createdAt": {
-                            "type": "string",
-                            "format": "date"
-                          },
-                          "updatedAt": {
-                            "type": "string",
-                            "format": "date"
-                          }
-                        }
+                        "$ref": "#/components/schemas/Shipment"
                       }
                     }
                   }
                 }
               }
             }
+          }
+        }
+      },
+      "post": {
+        "tags": ["Shipment API"],
+        "description": "API for creating a new shipment",
+        "summary": "Create new shipment",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "job": {
+                    "type": "string"
+                  },
+                  "noBl": {
+                    "type": "string"
+                  },
+                  "shipper": {
+                    "type": "string"
+                  },
+                  "shipperAddress": {
+                    "type": "string"
+                  },
+                  "shipperCountry": {
+                    "type": "string"
+                  },
+                  "consignee": {
+                    "type": "string"
+                  },
+                  "consigneeAddress": {
+                    "type": "string"
+                  },
+                  "consigneeCountry": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success create new shipment",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "number"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "data": {
+                      "$ref": "#/components/schemas/Shipment"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Shipment": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "job": {
+            "type": "string"
+          },
+          "noBl": {
+            "type": "string"
+          },
+          "shipper": {
+            "type": "string"
+          },
+          "shipperAddress": {
+            "type": "string"
+          },
+          "shipperCountry": {
+            "type": "string"
+          },
+          "consignee": {
+            "type": "string"
+          },
+          "consigneeAddress": {
+            "type": "string"
+          },
+          "consigneeCountry": {
+            "type": "string"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date"
           }
         }
       }
