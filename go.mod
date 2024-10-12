@@ -5,7 +5,6 @@ go 1.22.3
 require github.com/xuri/excelize/v2 v2.8.1
 
 require (
-	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/deckarep/golang-set/v2 v2.6.0 // indirect
 	github.com/go-jose/go-jose/v3 v3.0.3 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
@@ -14,7 +13,6 @@ require (
 )
 
 require (
-	github.com/go-sql-driver/mysql v1.8.1
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/playwright-community/playwright-go v0.4702.0
 	github.com/richardlehane/mscfb v1.0.4 // indirect

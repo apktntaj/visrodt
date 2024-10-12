@@ -1,11 +1,9 @@
 package main
 
 import (
-	playwrightt "github.com/apktntaj/visrodt/playwright"
+	"fmt"
 )
 
 func main() {
-	ceisa := "https://portal.beacukai.go.id/portal/login"
-
-	playwrightt.Open(ceisa)
+	fmt.Println("Hello World")
 }
