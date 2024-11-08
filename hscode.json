@@ -1,0 +1,964 @@
+{
+  "code": "01",
+  "message": "Sukses",
+  "data": [
+    {
+      "btbmi": 3,
+      "hscode_other": [
+        {
+          "hs_code": "0101",
+          "ur": "Kuda, keledai, bagal dan hinnie, hidup.",
+          "ur_en": "Live horses, asses, mules and hinnies."
+        }
+      ],
+      "hs_code": "01012100",
+      "bagian": "I",
+      "status": 4,
+      "bab": 1,
+      "bagian_penjelasan": ["BINATANG HIDUP", "PRODUK HEWANI"],
+      "bagian_penjelasan_en": [" LIVE ANIMALS", "ANIMAL PRODUCTS"],
+      "bab_penjelasan": ["BINATANG HIDUP"],
+      "bab_penjelasan_en": ["Live animals"],
+      "hsParent": [
+        {
+          "hs_code_format": "0101",
+          "ur_id": "Kuda, keledai, bagal dan hinnie, hidup.",
+          "ur_en": "Live horses, asses, mules and hinnies."
+        },
+        {
+          "hs_code_format": "01012100",
+          "ur_id": "- - Bibit",
+          "ur_en": "- - Pure-bred breeding animals"
+        }
+      ],
+      "issued_by_indonesia": "-",
+      "issued_by": "-",
+      "regulation": "PMK No.26/PMK.010/2022",
+      "description": "- - Bibit",
+      "mfn": [
+        {
+          "regulation": ".26/PMK.010/2022",
+          "issued_at": "-",
+          "effective_at": "-",
+          "bm": [
+            {
+              "bm": "0.00 %",
+              "regulation": "PMK 26/PMK.010/2022",
+              "file": "./assets/upload/intr/1648781643901.pdf"
+            }
+          ],
+          "ppn": [
+            {
+              "ppn": "0.00 %",
+              "regulation": "",
+              "file": "./assets/upload/intr/1637134281852.pdf"
+            }
+          ],
+          "ppnbm": [{ "ppnbm": "N/A", "regulation": "", "file": "-" }],
+          "cukai": [{ "cukai": "N/A", "regulation": "", "file": "-" }],
+          "ad": [{ "ad": "N/A", "regulation": "", "file": "-" }],
+          "tp": [{ "tp": "N/A", "regulation": "", "file": "-" }],
+          "im": [{ "im": "N/A", "regulation": "", "file": "-" }],
+          "pm": [{ "pm": "N/A", "regulation": "", "file": "-" }],
+          "pph": [
+            {
+              "pph": "2.50 %",
+              "regulation": "PMK 41/PMK.010/2022",
+              "file": "./assets/upload/intr/1648780469543.pdf",
+              "flag_api": "Y"
+            },
+            {
+              "pph": "7.50 %",
+              "regulation": "PMK 41/PMK.010/2022",
+              "file": "./assets/upload/intr/1648780469543.pdf",
+              "flag_api": "N"
+            }
+          ],
+          "ppnbk": [{ "ppnbk": "N/A", "regulation": "", "file": "-" }],
+          "tarif_dana_sawit": [
+            { "tarif_dana_sawit": "N/A", "regulation": "", "file": "-" }
+          ],
+          "notes": "-",
+          "flag_sda": { "flag_sda": "Tidak", "no_skep": "" },
+          "bmkblbb": [{ "bmkblbb": "N/A", "regulation": "", "file": "-" }]
+        }
+      ],
+      "new_mfn": [
+        {
+          "regulation": ".26/PMK.010/2022",
+          "issued_at": "-",
+          "effective_at": "-",
+          "bm": [
+            {
+              "bm": "0.00 %",
+              "regulation": "PMK 26/PMK.010/2022",
+              "file": "./assets/upload/intr/1648781643901.pdf"
+            }
+          ],
+          "ppn": [
+            {
+              "ppn": "0.00 %",
+              "regulation": "",
+              "file": "./assets/upload/intr/1637134281852.pdf"
+            }
+          ],
+          "ppnbm": [{ "ppnbm": "N/A", "regulation": "", "file": "-" }],
+          "cukai": [{ "cukai": "N/A", "regulation": "", "file": "-" }],
+          "ad": [{ "ad": "N/A", "regulation": "", "file": "-" }],
+          "tp": [{ "tp": "N/A", "regulation": "", "file": "-" }],
+          "im": [{ "im": "N/A", "regulation": "", "file": "-" }],
+          "pm": [{ "pm": "N/A", "regulation": "", "file": "-" }],
+          "pph": [
+            {
+              "pph": "2.50 %",
+              "regulation": "PMK 41/PMK.010/2022",
+              "file": "./assets/upload/intr/1648780469543.pdf",
+              "flag_api": "Y"
+            },
+            {
+              "pph": "7.50 %",
+              "regulation": "PMK 41/PMK.010/2022",
+              "file": "./assets/upload/intr/1648780469543.pdf",
+              "flag_api": "N"
+            }
+          ],
+          "ppnbk": [{ "ppnbk": "N/A", "regulation": "", "file": "-" }],
+          "tarif_dana_sawit": [
+            { "tarif_dana_sawit": "N/A", "regulation": "", "file": "-" }
+          ],
+          "notes": "-",
+          "flag_sda": { "flag_sda": "Tidak", "no_skep": "" },
+          "bmkblbb": [{ "bmkblbb": "N/A", "regulation": "", "file": "-" }]
+        }
+      ],
+      "preferential_tariff": [
+        {
+          "preference": "AKFTA (ASEAN Korea Free Trade Agreement)",
+          "no_skep": "PMK Nomor 152 Tahun 2023",
+          "tgl_skep": "2023-12-27",
+          "berlaku": "2024-01-04",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1704352447884.pdf"
+        },
+        {
+          "preference": "ACFTA (ASEAN - China Free Trade Area)",
+          "no_skep": "PMK 46/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649034282492.pdf"
+        },
+        {
+          "preference": "ATIGA (ASEAN Trade in Goods Agreement)",
+          "no_skep": "PMK 43/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649034577251.pdf"
+        },
+        {
+          "preference": "IACEPA (Indonesia-Australia Comprehensive Economic Partnership Agreement)",
+          "no_skep": "PMK 54/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649038038117.pdf"
+        },
+        {
+          "preference": "AJCEP (ASEAN-Japan Comprehensive Economic Partnership)",
+          "no_skep": "PMK 48/PMK.010/2022 jo. PMK 90/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649035458290.pdf"
+        },
+        {
+          "preference": "RCEP-Korea (Regional Comprehensive Economic Partnership Agreement - Korea)",
+          "no_skep": "PMK-223/PMK.010/2022 jo. PMK Nomor 37 Tahun 2023",
+          "tgl_skep": "2023-03-28",
+          "berlaku": "2023-03-29",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1680575972707.pdf"
+        },
+        {
+          "preference": "RCEP-Australia (Regional Comprehensive Economic Partnership Agreement - Australia)",
+          "no_skep": "PMK 222/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-02",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672825651077.pdf"
+        },
+        {
+          "preference": "RCEP-China (Regional Comprehensive Economic Partnership Agreement - China)",
+          "no_skep": "PMK 224/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-02",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672827250588.pdf"
+        },
+        {
+          "preference": "RCEP-ASEAN (Regional Comprehensive Economic Partnership Agreement - ASEAN)",
+          "no_skep": "PMK 221/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-02",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672823236294.pdf"
+        },
+        {
+          "preference": "ICCEPA (Indonesia-Chile Comprehensive Economic Partnership Agreement)",
+          "no_skep": "PMK 55/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649038400221.pdf"
+        },
+        {
+          "preference": "RCEP-New Zealand (Regional Comprehensive Economic Partnership Agreement - New Zealand)",
+          "no_skep": "PMK 226/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-02",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672828228251.pdf"
+        },
+        {
+          "preference": "AANZFTA (ASEAN Australia New Zealand Free Trade Agreement)",
+          "no_skep": "PMK 44/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649033477303.pdf"
+        },
+        {
+          "preference": "RCEP-Japan (Regional Comprehensive Economic Partnership Agreement - Japan)",
+          "no_skep": "PMK-225/PMK.010/2022 jo. PMK Nomor 36 Tahun 2023",
+          "tgl_skep": "2023-03-28",
+          "berlaku": "2023-03-29",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1680575906328.pdf"
+        },
+        {
+          "preference": "AHKFTA (ASEAN-Hong Kong Free Trade Agreement)",
+          "no_skep": "PMK 49/PMK.010/2022 jo. PMK 93/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649036407495.pdf"
+        },
+        {
+          "preference": "AIFTA (ASEAN India Free Trade Agreement)",
+          "no_skep": "PMK 47/PMK.010/2022 jo. PMK 92/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649035064520.pdf"
+        },
+        {
+          "preference": "IJEPA (Indonesia - Japan Economic Partnership Agreement)",
+          "no_skep": "PMK 50/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649036633120.pdf"
+        },
+        {
+          "preference": "IECEPA (Indonesia-European Free Trade Association Comprehensive Economic Parthership)",
+          "no_skep": "PMK 56/PMK.010/2022 jo. PMK 91/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2022", "nilai": "0%" },
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649038606805.pdf"
+        },
+        {
+          "preference": "IKCEPA (Indonesia-Korea Comprehensive Partnership Agreement)",
+          "no_skep": "PMK 227/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-01",
+          "years": [
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672828766971.pdf"
+        },
+        {
+          "preference": "IUAE-CEPA (Indonesia–United Arab Emirates Comprehensive Economic Partnership Agreement)",
+          "no_skep": "PMK Nomor 87 Tahun 2023",
+          "tgl_skep": null,
+          "berlaku": "2023-09-01",
+          "years": [
+            { "tahun": "Tahun 2023", "nilai": "0%" },
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" },
+            { "tahun": "Tahun 2026", "nilai": "0%" },
+            { "tahun": "Tahun 2027", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1693816885461.pdf"
+        }
+      ],
+      "preferential_tariff_new": [
+        {
+          "preference": "AKFTA (ASEAN Korea Free Trade Agreement)",
+          "no_skep": "PMK Nomor 152 Tahun 2023",
+          "tgl_skep": "2023-12-27",
+          "berlaku": "2024-01-04",
+          "years": [{ "tahun": "Tahun 2023", "nilai": "0%" }],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1704352447884.pdf"
+        },
+        {
+          "preference": "ACFTA (ASEAN - China Free Trade Area)",
+          "no_skep": "PMK 46/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [{ "tahun": "Tahun 2023", "nilai": "0%" }],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649034282492.pdf"
+        },
+        {
+          "preference": "ATIGA (ASEAN Trade in Goods Agreement)",
+          "no_skep": "PMK 43/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [{ "tahun": "Tahun 2023", "nilai": "0%" }],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649034577251.pdf"
+        },
+        {
+          "preference": "IACEPA (Indonesia-Australia Comprehensive Economic Partnership Agreement)",
+          "no_skep": "PMK 54/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649038038117.pdf"
+        },
+        {
+          "preference": "AJCEP (ASEAN-Japan Comprehensive Economic Partnership)",
+          "no_skep": "PMK 48/PMK.010/2022 jo. PMK 90/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649035458290.pdf"
+        },
+        {
+          "preference": "RCEP-Korea (Regional Comprehensive Economic Partnership Agreement - Korea)",
+          "no_skep": "PMK-223/PMK.010/2022 jo. PMK Nomor 37 Tahun 2023",
+          "tgl_skep": "2023-03-28",
+          "berlaku": "2023-03-29",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1680575972707.pdf"
+        },
+        {
+          "preference": "RCEP-Australia (Regional Comprehensive Economic Partnership Agreement - Australia)",
+          "no_skep": "PMK 222/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-02",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672825651077.pdf"
+        },
+        {
+          "preference": "RCEP-China (Regional Comprehensive Economic Partnership Agreement - China)",
+          "no_skep": "PMK 224/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-02",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672827250588.pdf"
+        },
+        {
+          "preference": "RCEP-ASEAN (Regional Comprehensive Economic Partnership Agreement - ASEAN)",
+          "no_skep": "PMK 221/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-02",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672823236294.pdf"
+        },
+        {
+          "preference": "ICCEPA (Indonesia-Chile Comprehensive Economic Partnership Agreement)",
+          "no_skep": "PMK 55/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649038400221.pdf"
+        },
+        {
+          "preference": "RCEP-New Zealand (Regional Comprehensive Economic Partnership Agreement - New Zealand)",
+          "no_skep": "PMK 226/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-02",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672828228251.pdf"
+        },
+        {
+          "preference": "AANZFTA (ASEAN Australia New Zealand Free Trade Agreement)",
+          "no_skep": "PMK 44/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649033477303.pdf"
+        },
+        {
+          "preference": "RCEP-Japan (Regional Comprehensive Economic Partnership Agreement - Japan)",
+          "no_skep": "PMK-225/PMK.010/2022 jo. PMK Nomor 36 Tahun 2023",
+          "tgl_skep": "2023-03-28",
+          "berlaku": "2023-03-29",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1680575906328.pdf"
+        },
+        {
+          "preference": "AHKFTA (ASEAN-Hong Kong Free Trade Agreement)",
+          "no_skep": "PMK 49/PMK.010/2022 jo. PMK 93/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649036407495.pdf"
+        },
+        {
+          "preference": "AIFTA (ASEAN India Free Trade Agreement)",
+          "no_skep": "PMK 47/PMK.010/2022 jo. PMK 92/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [{ "tahun": "Tahun 2023", "nilai": "0%" }],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649035064520.pdf"
+        },
+        {
+          "preference": "IJEPA (Indonesia - Japan Economic Partnership Agreement)",
+          "no_skep": "PMK 50/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [{ "tahun": "Tahun 2023", "nilai": "0%" }],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649036633120.pdf"
+        },
+        {
+          "preference": "IECEPA (Indonesia-European Free Trade Association Comprehensive Economic Parthership)",
+          "no_skep": "PMK 56/PMK.010/2022 jo. PMK 91/PMK.010/2022",
+          "tgl_skep": "2022-03-30",
+          "berlaku": "2022-04-01",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1649038606805.pdf"
+        },
+        {
+          "preference": "IKCEPA (Indonesia-Korea Comprehensive Partnership Agreement)",
+          "no_skep": "PMK 227/PMK.010/2022",
+          "tgl_skep": "2022-12-30",
+          "berlaku": "2023-01-01",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1672828766971.pdf"
+        },
+        {
+          "preference": "IUAE-CEPA (Indonesia–United Arab Emirates Comprehensive Economic Partnership Agreement)",
+          "no_skep": "PMK Nomor 87 Tahun 2023",
+          "tgl_skep": null,
+          "berlaku": "2023-09-01",
+          "years": [
+            { "tahun": "Tahun 2024", "nilai": "0%" },
+            { "tahun": "Tahun 2025", "nilai": "0%" }
+          ],
+          "seterusnya": true,
+          "file_path": "./assets/upload/intr/1693816885461.pdf"
+        }
+      ],
+      "import_regulation": [
+        {
+          "id_dokumen": "0103507",
+          "name": "(KH.5, KH.7, KH.14, KH.17 atau KH.9a)",
+          "kd_ijin": "03999",
+          "modul": "943",
+          "komoditi": "[Hewan]",
+          "legal": "PP 82 Tahun 2000 Tentang Karantina Hewan",
+          "deskripsi": "Kuda, Keledai, Bagal Dan Hinnie, Hidup. - Kuda:",
+          "kode_instansi": "03",
+          "dok_pabean": ["20", "16", "23", "511", "611", "660", "660"]
+        },
+        {
+          "id_dokumen": "0100000",
+          "name": "Dilarang (Dilarang mengimpor Biatang Hidup yang berasal dari Republik Rangkat Tiongkok atau transit di Republik Rakyat Tiongkok)",
+          "kd_ijin": "00000",
+          "modul": "",
+          "komoditi": "[Hewan]",
+          "legal": "Peraturan Menteri Perdagangan Nomor 10 tahun 2020 tentang Larangan Sementara Impor Binatang Hidup dari Republik Rakyat Tiongkok",
+          "deskripsi": "Kuda, Keledai, Bagal Dan Hinnie, Hidup. - Kuda:",
+          "kode_instansi": "00",
+          "dok_pabean": ["20", "16", "23", "511", "611"]
+        }
+      ],
+      "import_regulation_border": [
+        {
+          "id_dokumen": "0103507",
+          "kode_instansi": "03",
+          "kode_ijin": "03999",
+          "nomor_skep": "PP   82 Tahun 2000 Tentang Karantina Hewan",
+          "tanggal_skep": "2000-09-19",
+          "desc": "Kuda, keledai, bagal dan hinnie, hidup.                                                                                                                    - Kuda:                                                                                             ",
+          "keterangan": "",
+          "tanggal_awal": "2000-09-19",
+          "tanggal_akhir": "",
+          "kode_komoditi": "18",
+          "ur_komoditi": "[Hewan]",
+          "fl_ap": "0",
+          "fl_quota": "0",
+          "fl_nsw": "Y",
+          "fl_lartas": "P",
+          "ur_ga": "Karantina Hewan",
+          "nama_ijin": "KH.4, KH.5, KH.7,KH.8a, KH.8b, KH.8c, KH.9, KH.10,KH.11 atau KH.12 atau KH.14",
+          "modul": "943",
+          "dok_pabean": ["20"]
+        }
+      ],
+      "import_regulation_post_border": [
+        {
+          "id_dokumen": "01015M9",
+          "kode_instansi": "01",
+          "kode_ijin": "01A43",
+          "nomor_skep": "Permendag Nomor 36 Tahun 2023 sebagaimana telah diubah terakhir dengan Permendag Nomor 8 Tahun 2024",
+          "tanggal_skep": "2024-05-17T00:00:00",
+          "uraian_skep": "-- Bibit",
+          "tanggal_awal": "2024-03-10T00:00:00",
+          "tanggal_akhir": null,
+          "kode_komoditi": "124",
+          "desc": "-- Bibit",
+          "ur_ga": "Kementerian Perdagangan (Kemendag)",
+          "ur_komoditi": "Hewan Dan Produk Hewan",
+          "nama_ijin": "PI Hewan Produk Hewan / Surat Keterangan",
+          "modul": "959",
+          "dok_pabean": ["20", "25", "28", "513", "621", "632", "660"]
+        }
+      ],
+      "export_regulation": [
+        {
+          "id_dokumen": "0101172",
+          "name": "Persetujuan Ekspor (PE) Hewan dan Produk Hewan",
+          "komoditi": "[HEWAN DAN PRODUK HEWAN]",
+          "legal": "Peraturan Menteri Perdagangan RI Nomor 23 Tahun 2023 sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Menteri Perdagangan RI Nomor 21 Tahun 2024",
+          "deskripsi": "- - Bibit (Pacu, Tunggang, Tarik, Kaveleri, Polo, dan Kesayangan)",
+          "modul": "820"
+        }
+      ],
+      "catatan": [
+        {
+          "bab_id": "Bab 1",
+          "bab_en": "Chapter 1",
+          "desc_id": "BINATANG HIDUP",
+          "desc_en": "Live animals",
+          "note_id": null,
+          "note_en": null,
+          "catatan_bag_id": "-",
+          "catatan_bag_en": "-"
+        }
+      ],
+      "kondisiTertentu": true,
+      "refSatuan": {
+        "impor": [
+          {
+            "seri": 10948,
+            "jenis": "impor",
+            "hs_code": "01012100",
+            "no_skep": "KMK Nomor 50/KM.4/2024",
+            "tgl_skep": "2024-10-25",
+            "file_path": null,
+            "kd_satuan": "PCE",
+            "ur_satuan": "Piece",
+            "dok_pabean": [
+              "16",
+              "20",
+              "23",
+              "25",
+              "28",
+              "511",
+              "513",
+              "611",
+              "621",
+              "632",
+              "660"
+            ],
+            "tgl_berlaku": "2020-01-01"
+          }
+        ],
+        "ekspor": [
+          {
+            "seri": 3829,
+            "jenis": "ekspor",
+            "hs_code": "01012100",
+            "no_skep": "KMK Nomor 49 Tahun 2024",
+            "tgl_skep": "2024-10-24",
+            "file_path": null,
+            "kd_satuan": "PCE",
+            "ur_satuan": "Piece",
+            "dok_pabean": ["30", "33", "512", "631"],
+            "tgl_berlaku": "2020-01-01"
+          }
+        ]
+      },
+      "dok_kepabean_import_border": [
+        {
+          "kd_dokumen": "20",
+          "nm_dokumen": "BC 2.0",
+          "keterangan": "PEMBERITAHUAN IMPOR BARANG",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN IMPOR BARANG",
+          "uraian_intr": "BC 2.0",
+          "ket_text_link": "(Perdirjen BC nomor PER-23/BC/2022)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710032052013.pdf",
+          "status_btn": true
+        },
+        {
+          "kd_dokumen": "16",
+          "nm_dokumen": "BC 1.6",
+          "keterangan": "PEMBERITAHUAN PABEAN PENGELUARAN BARANG DARI KAWASAN PABEAN UNTUK DITIMBUN DI PUSAT LOGISTIK BERIKAT",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN PABEAN PENGELUARAN BARANG DARI KAWASAN PABEAN UNTUK DITIMBUN DI PUSAT LOGISTIK BERIKAT",
+          "uraian_intr": "BC 1.6",
+          "ket_text_link": "(Perdirjen BC nomor PER-02/BC/2016)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710313379888.pdf",
+          "status_btn": true
+        },
+        {
+          "kd_dokumen": "28",
+          "nm_dokumen": "BC 2.8",
+          "keterangan": "PEMBERITAHUAN IMPOR BARANG DARI PUSAT LOGISTIK BERIKAT",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN IMPOR BARANG DARI PUSAT LOGISTIK BERIKAT",
+          "uraian_intr": "BC 2.8",
+          "ket_text_link": "(Perdirjen BC nomor PER-03/BC/2016)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710315979685.pdf",
+          "status_btn": false
+        },
+        {
+          "kd_dokumen": "25",
+          "nm_dokumen": "BC 2.5",
+          "keterangan": "PEMBERITAHUAN IMPOR BARANG DARI TEMPAT PENIMBUNAN BERIKAT",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN IMPOR BARANG DARI TEMPAT PENIMBUNAN BERIKAT",
+          "uraian_intr": "BC 2.5",
+          "ket_text_link": "(Perdirjen BC nomor PER-07/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710387230221.pdf",
+          "status_btn": false
+        },
+        {
+          "kd_dokumen": "23",
+          "nm_dokumen": "BC 2.3",
+          "keterangan": "PEMBERITAHUAN IMPOR BARANG UNTUK DITIMBUN DI TEMPAT PENIMBUNAN BERIKAT",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN IMPOR BARANG UNTUK DITIMBUN DI TEMPAT PENIMBUNAN BERIKAT",
+          "uraian_intr": "BC 2.3",
+          "ket_text_link": "(Perdirjen BC nomor PER-07/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710387230221.pdf",
+          "status_btn": true
+        },
+        {
+          "kd_dokumen": "511",
+          "nm_dokumen": "FTZ01 - Pemasukan dari Luar Daerah Pabean",
+          "keterangan": "",
+          "fl_intr": "I",
+          "keterangan_intr": "",
+          "uraian_intr": "FTZ01 - Pemasukan dari Luar Daerah Pabean",
+          "ket_text_link": "(Perdirjen BC nomor PER-22/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710315593172.pdf",
+          "status_btn": true
+        },
+        {
+          "kd_dokumen": "513",
+          "nm_dokumen": "FTZ01 - Pengeluaran ke Tempat Lain dalam Daerah Pabean",
+          "keterangan": "",
+          "fl_intr": "I",
+          "keterangan_intr": "",
+          "uraian_intr": "FTZ01 - Pengeluaran ke Tempat Lain dalam Daerah Pabean",
+          "ket_text_link": "(Perdirjen BC nomor PER-22/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710315593172.pdf",
+          "status_btn": false
+        },
+        {
+          "kd_dokumen": "611",
+          "nm_dokumen": "KEK - Pemasukan dari LDP",
+          "keterangan": "",
+          "fl_intr": "I",
+          "keterangan_intr": "",
+          "uraian_intr": "KEK - Pemasukan dari LDP",
+          "ket_text_link": "(Perdirjen BC nomor PER-02/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710316159993.pdf",
+          "status_btn": true
+        },
+        {
+          "kd_dokumen": "632",
+          "nm_dokumen": "KEK - Pengeluaran ke TLDDP",
+          "keterangan": "",
+          "fl_intr": "I",
+          "keterangan_intr": "",
+          "uraian_intr": "KEK - Pengeluaran ke TLDDP",
+          "ket_text_link": "(Perdirjen BC nomor PER-02/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710316159993.pdf",
+          "status_btn": false
+        }
+      ],
+      "dok_kepabean_import_post_border": [
+        {
+          "kd_dokumen": "20",
+          "nm_dokumen": "BC 2.0",
+          "keterangan": "PEMBERITAHUAN IMPOR BARANG",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN IMPOR BARANG",
+          "uraian_intr": "BC 2.0",
+          "ket_text_link": "(Perdirjen BC nomor PER-23/BC/2022)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710032052013.pdf",
+          "status_btn": true
+        },
+        {
+          "kd_dokumen": "16",
+          "nm_dokumen": "BC 1.6",
+          "keterangan": "PEMBERITAHUAN PABEAN PENGELUARAN BARANG DARI KAWASAN PABEAN UNTUK DITIMBUN DI PUSAT LOGISTIK BERIKAT",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN PABEAN PENGELUARAN BARANG DARI KAWASAN PABEAN UNTUK DITIMBUN DI PUSAT LOGISTIK BERIKAT",
+          "uraian_intr": "BC 1.6",
+          "ket_text_link": "(Perdirjen BC nomor PER-02/BC/2016)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710313379888.pdf",
+          "status_btn": false
+        },
+        {
+          "kd_dokumen": "28",
+          "nm_dokumen": "BC 2.8",
+          "keterangan": "PEMBERITAHUAN IMPOR BARANG DARI PUSAT LOGISTIK BERIKAT",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN IMPOR BARANG DARI PUSAT LOGISTIK BERIKAT",
+          "uraian_intr": "BC 2.8",
+          "ket_text_link": "(Perdirjen BC nomor PER-03/BC/2016)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710315979685.pdf",
+          "status_btn": true
+        },
+        {
+          "kd_dokumen": "25",
+          "nm_dokumen": "BC 2.5",
+          "keterangan": "PEMBERITAHUAN IMPOR BARANG DARI TEMPAT PENIMBUNAN BERIKAT",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN IMPOR BARANG DARI TEMPAT PENIMBUNAN BERIKAT",
+          "uraian_intr": "BC 2.5",
+          "ket_text_link": "(Perdirjen BC nomor PER-07/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710387230221.pdf",
+          "status_btn": true
+        },
+        {
+          "kd_dokumen": "23",
+          "nm_dokumen": "BC 2.3",
+          "keterangan": "PEMBERITAHUAN IMPOR BARANG UNTUK DITIMBUN DI TEMPAT PENIMBUNAN BERIKAT",
+          "fl_intr": "I",
+          "keterangan_intr": "PEMBERITAHUAN IMPOR BARANG UNTUK DITIMBUN DI TEMPAT PENIMBUNAN BERIKAT",
+          "uraian_intr": "BC 2.3",
+          "ket_text_link": "(Perdirjen BC nomor PER-07/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710387230221.pdf",
+          "status_btn": false
+        },
+        {
+          "kd_dokumen": "511",
+          "nm_dokumen": "FTZ01 - Pemasukan dari Luar Daerah Pabean",
+          "keterangan": "",
+          "fl_intr": "I",
+          "keterangan_intr": "",
+          "uraian_intr": "FTZ01 - Pemasukan dari Luar Daerah Pabean",
+          "ket_text_link": "(Perdirjen BC nomor PER-22/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710315593172.pdf",
+          "status_btn": false
+        },
+        {
+          "kd_dokumen": "513",
+          "nm_dokumen": "FTZ01 - Pengeluaran ke Tempat Lain dalam Daerah Pabean",
+          "keterangan": "",
+          "fl_intr": "I",
+          "keterangan_intr": "",
+          "uraian_intr": "FTZ01 - Pengeluaran ke Tempat Lain dalam Daerah Pabean",
+          "ket_text_link": "(Perdirjen BC nomor PER-22/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710315593172.pdf",
+          "status_btn": true
+        },
+        {
+          "kd_dokumen": "611",
+          "nm_dokumen": "KEK - Pemasukan dari LDP",
+          "keterangan": "",
+          "fl_intr": "I",
+          "keterangan_intr": "",
+          "uraian_intr": "KEK - Pemasukan dari LDP",
+          "ket_text_link": "(Perdirjen BC nomor PER-02/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710316159993.pdf",
+          "status_btn": false
+        },
+        {
+          "kd_dokumen": "632",
+          "nm_dokumen": "KEK - Pengeluaran ke TLDDP",
+          "keterangan": "",
+          "fl_intr": "I",
+          "keterangan_intr": "",
+          "uraian_intr": "KEK - Pengeluaran ke TLDDP",
+          "ket_text_link": "(Perdirjen BC nomor PER-02/BC/2021)",
+          "ket_link": "https://api.insw.go.id/assets/upload/intr/1710316159993.pdf",
+          "status_btn": true
+        }
+      ]
+    }
+  ]
+}
