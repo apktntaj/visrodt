@@ -1,12 +1,9 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
-	"io"
 	"log"
-	"os"
-	"time"
+	"net/http"
 )
 
 type Response struct {
@@ -40,53 +37,25 @@ type Pph struct {
 
 func main() {
 
-	start := time.Now()
-
-	byteValue := INTR("01012100")
-	// byteValue := mock()
-
-	var response Response
-	json.Unmarshal(byteValue, &response)
-
-	fmt.Println(response.Code)
-	fmt.Println(response.Message)
-
-	for _, insw := range response.Data {
-		fmt.Println(insw.HsCode)
-
-		for _, mfn := range insw.Mfn {
-			for _, bm := range mfn.Bm {
-				fmt.Println("BM:", bm.Value)
-			}
-			for _, ppn := range mfn.Ppn {
-				fmt.Println("PPN:", ppn.Value)
-			}
-			for i, pph := range mfn.Pph {
-				ket := "(API)"
-				if i == 1 {
-					ket = "(NON-API)"
-				}
-				fmt.Println("PPH:", pph.Value+" "+ket)
-			}
-		}
-	}
-
-	fmt.Printf("\n\nDurasi menarik data INSW: %f detik\n", time.Since(start).Seconds())
+	http.HandleFunc("/post", PostHandler)
+	http.HandleFunc("/", PostHandler)
+	fmt.Println("Server running on port 8080")
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
-func mock() []byte {
-	file, err := os.Open("hscode.json")
+// func mock() []byte {
+// 	file, err := os.Open("hscode.json")
 
-	if err != nil {
-		log.Fatalf("Error opening file: %v", err)
-	}
+// 	if err != nil {
+// 		log.Fatalf("Error opening file: %v", err)
+// 	}
 
-	defer file.Close()
-	byteValue, err := io.ReadAll(file)
+// 	defer file.Close()
+// 	byteValue, err := io.ReadAll(file)
 
-	if err != nil {
-		log.Fatalf("Error reading file: %v", err)
-	}
+// 	if err != nil {
+// 		log.Fatalf("Error reading file: %v", err)
+// 	}
 
-	return byteValue
-}
+// 	return byteValue
+// }
