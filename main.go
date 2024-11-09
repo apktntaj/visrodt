@@ -42,8 +42,8 @@ func main() {
 
 	start := time.Now()
 
-	// byteValue := Exctract("01012100")
-	byteValue := mock()
+	byteValue := INTR("01012100")
+	// byteValue := mock()
 
 	var response Response
 	json.Unmarshal(byteValue, &response)
@@ -61,8 +61,12 @@ func main() {
 			for _, ppn := range mfn.Ppn {
 				fmt.Println("PPN:", ppn.Value)
 			}
-			for _, pph := range mfn.Pph {
-				fmt.Println("PPH:", pph.Value)
+			for i, pph := range mfn.Pph {
+				ket := "(API)"
+				if i == 1 {
+					ket = "(NON-API)"
+				}
+				fmt.Println("PPH:", pph.Value+" "+ket)
 			}
 		}
 	}

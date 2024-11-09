@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func Exctract(hscode string) []byte {
+func INTR(hscode string) []byte {
 	endpoint := "https://api.insw.go.id/api-prod-ba/ref/hscode/komoditas?hs_code=" + hscode
 	req, err := http.NewRequest("GET", endpoint, nil)
 	if err != nil {
