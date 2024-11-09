@@ -3,74 +3,86 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io"
+	"log"
+	"os"
+	"time"
 )
 
-// type Response struct {
-// 	Code    string `json:"code"`
-// 	Message string `json:"message"`
-// 	Data    []Data `json:"data"`
-// }
-
-// type Data struct {
-// 	HsCode string `json:"hs_code"`
-// 	Bab    string `json:"bab"`
-// 	// NewMfn []NewMfn `json:"new_mfn"`
-// }
-
-type BM struct {
-	BM string `json:"bm"`
-}
-
-type PPN struct {
-	PPN string `json:"ppn"`
-}
-
-type PPH struct {
-	PPH string `json:"pph"`
-}
-type NewMFN struct {
-	Regulation  string `json:"regulation"`
-	IssuedAt    string `json:"issued_at"`
-	EffectiveAt string `json:"effective_at"`
-
-	BM  []BM  `json:"bm"`
-	PPN []PPN `json:"ppn"`
-	PPH []PPH `json:"pph"`
-}
-
 type Response struct {
-	NewMFN []NewMFN `json:"new_mfn"`
+	Code    string `json:"code"`
+	Message string `json:"message"`
+	Data    []Insw `json:"data"`
+}
+
+type Insw struct {
+	HsCode string `json:"hs_code"`
+	Mfn    []Mfn  `json:"mfn"`
+}
+
+type Mfn struct {
+	Bm  []Bm  `json:"bm"`
+	Ppn []Ppn `json:"ppn"`
+	Pph []Pph `json:"pph"`
+}
+
+type Bm struct {
+	Value string `json:"bm"`
+}
+
+type Ppn struct {
+	Value string `json:"ppn"`
+}
+
+type Pph struct {
+	Value string `json:"pph"`
 }
 
 func main() {
-	// Exctract("01012100")
-	// file, err := os.Open("hscode.json")
-	// if err != nil {
-	// 	log.Fatalf("Error opening file: %v", err)
-	// }
-	// defer file.Close()
 
-	byteValue := Exctract("01012100")
+	start := time.Now()
+
+	// byteValue := Exctract("01012100")
+	byteValue := mock()
 
 	var response Response
 	json.Unmarshal(byteValue, &response)
 
-	fmt.Println(response)
+	fmt.Println(response.Code)
+	fmt.Println(response.Message)
 
-	for _, newMFN := range response.NewMFN {
-		fmt.Println("Regulation:", newMFN.Regulation)
-		fmt.Println("Issued At:", newMFN.IssuedAt)
-		fmt.Println("Effective At:", newMFN.EffectiveAt)
-		for _, bm := range newMFN.BM {
-			fmt.Println("BM:", bm.BM)
+	for _, insw := range response.Data {
+		fmt.Println(insw.HsCode)
 
-		}
-		for _, ppn := range newMFN.PPN {
-			fmt.Println("PPN:", ppn.PPN)
-
-		}
-		for _, pph := range newMFN.PPH {
-			fmt.Println("PPH:", pph.PPH)
+		for _, mfn := range insw.Mfn {
+			for _, bm := range mfn.Bm {
+				fmt.Println("BM:", bm.Value)
+			}
+			for _, ppn := range mfn.Ppn {
+				fmt.Println("PPN:", ppn.Value)
+			}
+			for _, pph := range mfn.Pph {
+				fmt.Println("PPH:", pph.Value)
+			}
 		}
 	}
+
+	fmt.Printf("\n\nDurasi menarik data INSW: %f detik\n", time.Since(start).Seconds())
+}
+
+func mock() []byte {
+	file, err := os.Open("hscode.json")
+
+	if err != nil {
+		log.Fatalf("Error opening file: %v", err)
+	}
+
+	defer file.Close()
+	byteValue, err := io.ReadAll(file)
+
+	if err != nil {
+		log.Fatalf("Error reading file: %v", err)
+	}
+
+	return byteValue
 }
